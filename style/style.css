@@ -1,7 +1,14 @@
+<<<<<<< HEAD
+body {
+    color: goldenrod;
+}
+
+=======
 body{
     color: goldenrod;
     background-color: black;
 }
+>>>>>>> 769f430f959473b8fe1f78c2a7874bc8e51aca5d
 h1{
     font-size: 47px;
 }
