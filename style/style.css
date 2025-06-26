@@ -1,14 +1,79 @@
-<<<<<<< HEAD
-body {
-    color: goldenrod;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-=======
 body{
     color: goldenrod;
     background-color: black;
 }
->>>>>>> 769f430f959473b8fe1f78c2a7874bc8e51aca5d
-h1{
-    font-size: 47px;
+
+.container {
+    display: flex;
+    position: relative;
+    width: 80%;
+    margin: 30vh auto 0;
+    background-color: gray;
+    border-radius: 40px;
+    padding: 20px;
+    border: 5px solid goldenrod;
+}
+
+.content {
+    margin-left: 10px;
+}
+
+img {
+    display: block;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.swipe {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: gray;
+    border: 5px solid goldenrod;
+    text-align: center;
+    line-height: 40px;
+    z-index: 1;
+    top: 350px;
+}
+
+.left {
+    left: 55px;
+}
+
+.right {
+    right: 55px;
+
+}
+
+.btn {
+    display: block;
+    width: 130px;
+    height: 30px;
+    background-color: green;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+.btn:link {
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: lightgreen;
+    transition: all .5s ease;
+}
+
+.btn:visited {
+    color: white;
+    text-decoration: none;
 }
